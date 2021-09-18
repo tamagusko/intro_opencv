@@ -15,9 +15,9 @@ Go to the [link](https://colab.research.google.com/github/tamagusko/workshop-int
 ## Topics
 
 * Open Computer Vision (OpenCV) fundamentals (15 min);
-* Image processing (15 min);
-* Corner detection (15 min);
-* Cascade classification (15 min);
+2. Edge detection (15 min);
+3. Cascade classification (15 min);
+4. Red signal detection (15 min).
 
 ## Complementary material
 
