@@ -17,7 +17,7 @@ Go to the [link](https://colab.research.google.com/github/tamagusko/workshop-int
 1. [Open Computer Vision (OpenCV) fundamentals ](introOpenCV.ipynb) (15 min);
 2. [Edge detection](edgeDetection.ipynb)  (15 min);
 3. [Cascade classification](cascade.ipynb) (15 min);
-4. [Red signal detection](trafficLightDetection.ipynb) (15 min).
+4. [Traffic light detection](trafficLightDetection.ipynb) (15 min).
 
 ## Complementary material
 
