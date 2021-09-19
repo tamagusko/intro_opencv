@@ -131,13 +131,15 @@ def detect(filepath, file):
     # cv2.imshow('mask red', maskr)
     # cv2.imshow('mask green', maskg)
     # cv2.imshow('mask yellow', maskg)
-    cv2.imwrite(path+'/result/'+file, cimg)
+    cv2.imwrite(results+file, cimg)
 
     cv2.waitKey(0)
     cv2.destroyAllWindows()
 
 
 path = '/home/t1/Dropbox/09-Jest/09-MyWorkshops/workshop-intro-opencv/img/trafficLights/'
+results = '/home/t1/Dropbox/09-Jest/09-MyWorkshops/workshop-intro-opencv/output/'
+
 for f in os.listdir(path):
     print(f)
     if f.endswith('.jpg') or f.endswith('.JPG') or f.endswith('.png') or f.endswith('.PNG') or f.endswith('.jpeg'):
