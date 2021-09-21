@@ -11,8 +11,6 @@ import numpy as np
 
 
 def detect(filepath, file):
-
-    font = cv2.FONT_HERSHEY_SIMPLEX
     img = cv2.imread(filepath+file)
     _, width = img.shape[:2]
     maxRadius = int(1.1*(width/12)/2)
